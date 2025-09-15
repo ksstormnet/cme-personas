@@ -63,3 +63,6 @@ yarn-error.log*
 /prepare-pr.sh
 /PULL_REQUEST_TEMPLATE.md
 
+# Claude AI resources
+.claude/
+
