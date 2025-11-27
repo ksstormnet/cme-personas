@@ -1,0 +1,70 @@
+{
+  "personas": [
+    {
+      "id": "thrill-seeker-at-sea",
+      "title": "Thrill Seeker at Sea",
+      "slug": "thrill-seeker-at-sea",
+      "exemplars": {
+        "male": {
+          "name": "Tahrush the Thrill Seeker at Sea",
+          "caption": "Fast-paced thrills keep Tahrush going—every cruise is a new adventure playground.",
+          "image": "https://via.placeholder.com/600x400/ff6b35/ffffff?text=Tahrush+%28Male%29"
+        },
+        "female": {
+          "name": "Tahani the Thrill Seeker at Sea",
+          "caption": "Speed, sun, and pure adrenaline—Tahani craves high-energy fun on the water.",
+          "image": "https://via.placeholder.com/600x400/ff6b35/ffffff?text=Tahani+%28Female%29"
+        },
+        "indeterminate": {
+          "name": "Tenzin the Thrill Seeker at Sea",
+          "caption": "Conquering new heights fuels Tenzin—every destination is a challenge to explore.",
+          "image": "https://via.placeholder.com/600x400/ff6b35/ffffff?text=Tenzin+%28Indeterminate%29"
+        }
+      }
+    },
+    {
+      "id": "luxe-seafarer",
+      "title": "Luxe Seafarer",
+      "slug": "luxe-seafarer",
+      "exemplars": {
+        "male": {
+          "name": "Leo the Luxe Seafarer",
+          "caption": "The Haven Lounge, a top-shelf drink, and flawless service — this is Leo's kind of escape.",
+          "image": "https://via.placeholder.com/600x400/4a90e2/ffffff?text=Leo+%28Male%29"
+        },
+        "female": {
+          "name": "Lana the Luxe Seafarer",
+          "caption": "Lana loves an exquisite meal, impeccable ambiance, and not a single detail overlooked — perfection at sea.",
+          "image": "https://via.placeholder.com/600x400/4a90e2/ffffff?text=Lana+%28Female%29"
+        },
+        "indeterminate": {
+          "name": "London the Luxe Seafarer",
+          "caption": "From designer boutiques to hidden gems, every port is an opportunity for London to indulge in something extraordinary.",
+          "image": "https://via.placeholder.com/600x400/4a90e2/ffffff?text=London+%28Indeterminate%29"
+        }
+      }
+    },
+    {
+      "id": "easy-breezy-cruiser",
+      "title": "Easy Breezy Cruiser",
+      "slug": "easy-breezy-cruiser",
+      "exemplars": {
+        "male": {
+          "name": "Ellis the Easy Breezy Cruiser",
+          "caption": "Ellis loves his vacations easy and carefree. No overplanning, no stress—just smooth sailing, cocktails in hand, and a perfectly picked cruise to match his vibe.",
+          "image": "https://via.placeholder.com/600x400/7ed321/ffffff?text=Ellis+%28Male%29"
+        },
+        "female": {
+          "name": "Emma the Easy Breezy Cruiser",
+          "caption": "Emma is here for the fun! She thrives on live music, themed parties, and making new friends—all without sweating the details. Let's plan the perfect cruise for her social side.",
+          "image": "https://via.placeholder.com/600x400/7ed321/ffffff?text=Emma+%28Female%29"
+        },
+        "indeterminate": {
+          "name": "Ethan the Easy Breezy Cruiser",
+          "caption": "Ethan likes the perfect mix of adventure and relaxation. They want the best shore excursions and the chillest sea days—without the hassle of planning",
+          "image": "https://via.placeholder.com/600x400/7ed321/ffffff?text=Ethan+%28Indeterminate%29"
+        }
+      }
+    }
+  ]
+}

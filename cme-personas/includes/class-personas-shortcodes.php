@@ -91,15 +91,25 @@ class Personas_Shortcodes {
 				$image_id = get_post_thumbnail_id( $persona );
 			}
 
-			$image_url = wp_get_attachment_image_url( $image_id, 'large' );
-			if ( ! $image_url ) {
+			// Get the full image HTML with dimensions to prevent CLS.
+			$image_html = wp_get_attachment_image(
+				$image_id,
+				'large',
+				false,
+				array( 'alt' => $title )
+			);
+
+			// Fallback to placeholder if no image found.
+			if ( ! $image_html ) {
 				$image_url = plugin_dir_url( \CME_PERSONAS_FILE ) . 'assets/images/placeholder.png';
+				// Since personas are 1024x1024, use those dimensions for placeholder.
+				$image_html = '<img src="' . esc_url( $image_url ) . '" alt="' . esc_attr( $title ) . '" width="1024" height="1024" />';
 			}
 
 			// Output persona slide.
 			echo '<div class="cme-persona-slide">';
 			echo '<div class="cme-persona-image-container">';
-			echo '<img src="' . esc_url( $image_url ) . '" alt="' . esc_attr( $title ) . '" />';
+			echo $image_html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Already escaped by wp_get_attachment_image.
 			echo '<div class="cme-persona-overlay">';
 			echo '<h3>' . esc_html( $title ) . '</h3>';
 			echo '<div class="cme-persona-excerpt">' . wp_kses_post( $excerpt ) . '</div>';

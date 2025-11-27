@@ -11,7 +11,7 @@
  * Plugin Name:       Cruise Made Easy - Personas
  * Plugin URI:        https://cruisemadeeasy.com/plugins/cme-personas
  * Description:       Customer persona management system with content personalization.
- * Version:           1.6.0
+ * Version:           1.6.1
  * Requires at least: 5.9
  * Requires PHP:      7.4
  * Author:            Cruise Made Easy
